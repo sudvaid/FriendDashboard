@@ -1,0 +1,24 @@
+run the folllwing command:
+ npm create vite@latest .
+
+ for this used react and javascript 
+
+ to the cite.config.js file, add:
+ server: {
+    port:3000
+  }
+  to the defineconfig method so that we can use localhost 3000
+
+
+  we r gna use chakra to make building ui easy 
+  first, install chakra for vite:
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+  thean edd this to main.jsx:
+  <ChakraProvider>
+      <App />
+    </ChakraProvider>
+
+
+if needed get es7 react helper which can give helper boilerplate ChakraProvider
+ex: type rafce to get boiler[ate nav bar code ]
